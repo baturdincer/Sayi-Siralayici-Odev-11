@@ -43,7 +43,7 @@ public class Main {
                 }
             }
 
-            System.out.println(max+">"+"" +orta+">"+min);
+            System.out.println(min+"<"+orta+"<"+max);
 
         }
         else{
@@ -52,27 +52,27 @@ public class Main {
             }
             else if (sayi1 == sayi2) {
                 if (sayi1>sayi3){
-                    System.out.println(sayi1+"="+sayi2+">"+sayi3);
+                    System.out.println(sayi3+"<"+sayi1+"="+sayi2);
                 }
                 else if(sayi3>sayi1) {
-                    System.out.println(sayi3+">"+sayi2+"="+sayi1);
+                    System.out.println(sayi2+"="+sayi1+"<"+sayi3);
                 }
 
             }
             else if (sayi1 == sayi3) {
                 if (sayi1>sayi2){
-                    System.out.println(sayi1+"="+sayi3+">"+sayi2);
+                    System.out.println(sayi2+"<"+sayi1+"="+sayi3);
                 }
                 else if (sayi2>sayi1){
-                    System.out.println(sayi2+">"+sayi1+"="+sayi3);
+                    System.out.println(sayi1+"="+sayi3+"<"+sayi2);
                 }
             }
             else if(sayi2 == sayi3){
                 if (sayi1>sayi2){
-                    System.out.println(sayi1+">"+sayi2+"="+sayi3);
+                    System.out.println(sayi2+"="+sayi3+"<"+sayi1);
                 }
                 else if (sayi2>sayi1) {
-                    System.out.println(sayi2+"="+sayi3+">"+sayi1);
+                    System.out.println(sayi1+"<"+sayi2+"="+sayi3);
                 }
             }
         }
